@@ -1,0 +1,100 @@
+import keypad
+import board
+import time
+import usb_hid
+
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
+from adafruit_hid.keycode import Keycode
+from adafruit_hid.mouse import Mouse
+
+keyboard = Keyboard(usb_hid.devices)
+keyboard_layout = KeyboardLayoutUS(keyboard)
+mouse = Mouse(usb_hid.devices)
+
+
+km = keypad.KeyMatrix(
+    row_pins=(board.GP2, board.GP3, board.GP4, board.GP5),
+    column_pins=(board.GP6, board.GP7, board.GP8, board.GP9),
+    )
+
+def press(x):
+    if (x == 0):
+       keyboard.press(Keycode.ZERO)
+        time.sleep(0.1)
+        keyboard.release(Keycode.ZERO)
+    elif (x == 1):
+        keyboard.press(Keycode.ONE)
+        time.sleep(0.1)
+        keyboard.release(Keycode.ONE)
+    elif (x == 2):
+        keyboard.press(Keycode.TWO)
+        time.sleep(0.1)
+        keyboard.release(Keycode.TWO)
+    elif (x == 3):
+        keyboard.press(Keycode.THREE)
+        time.sleep(0.1)
+        keyboard.release(Keycode.THREE)
+    elif (x == 4):
+        keyboard.press(Keycode.A)
+        time.sleep(0.1)
+        keyboard.release(Keycode.A)
+    elif (x == 5):
+        keyboard.press(Keycode.SIX)
+        time.sleep(0.1)
+        keyboard.release(Keycode.SIX)
+    elif (x == 6):
+        keyboard.press(Keycode.FIVE)
+        time.sleep(0.1)
+        keyboard.release(Keycode.FIVE)
+    elif (x == 7):
+        keyboard.press(Keycode.SIX)
+        time.sleep(0.1)
+        keyboard.release(Keycode.SIX)
+    elif (x == 8):
+        keyboard.press(Keycode.B)
+        time.sleep(0.1)
+        keyboard.release(Keycode.B)
+    elif (x == 9):
+        keyboard.press(Keycode.SEVEN)
+        time.sleep(0.1)
+        keyboard.release(Keycode.SEVEN)
+    elif (x == 10):
+        keyboard.press(Keycode.EIGHT)
+        time.sleep(0.1)
+        keyboard.release(Keycode.EIGHT)
+    elif (x == 11):
+        keyboard.press(Keycode.NINE)
+        time.sleep(0.1)
+        keyboard.release(Keycode.NINE)
+    elif (x == 12):
+        keyboard.press(Keycode.C)
+        time.sleep(0.1)
+        keyboard.release(Keycode.C)
+    elif (x == 13):
+        keyboard.press(Keycode.KEYPAD_ASTERISK)
+        time.sleep(0.1)
+        keyboard.release(Keycode.KEYPAD_ASTERISK)
+    elif (x == 14):
+        keyboard.press(Keycode.ZERO)
+        time.sleep(0.1)
+        keyboard.release(Keycode.ZERO)
+    elif (x == 15):
+        keyboard.press(Keycode.Z)
+        time.sleep(0.1)
+        keyboard.release(Keycode.Z)
+    elif (x == 16):
+        keyboard.press(Keycode.D)
+        time.sleep(0.1)
+        keyboard.release(Keycode.D)
+
+
+while True:
+    event = km.events.get()
+    if event:
+        if event.pressed:
+            print(event)
+            print(event.key_number)
+            x = event.key_number
+            press(x)
+
