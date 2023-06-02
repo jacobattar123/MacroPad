@@ -1,0 +1,263 @@
+2023-06-01 10:01:23 [INFO] Application started.
+2023-06-01 10:02:12 [ERROR] Invalid input received.
+2023-06-01 10:03:45 [INFO] User logged in: johndoe
+2023-06-01 10:04:29 [DEBUG] Processing request: GET /api/users
+2023-06-01 10:05:17 [INFO] Request completed successfully: GET /api/users
+2023-06-01 10:06:03 [WARN] Deprecated function called: getUserName()
+2023-06-01 10:07:21 [ERROR] Database connection failed.
+2023-06-01 10:08:09 [DEBUG] Processing request: POST /api/orders
+2023-06-01 10:09:37 [INFO] New order created: Order #1234
+2023-06-01 10:10:15 [INFO] User logged out: johndoe
+2023-06-01 10:11:06 [DEBUG] Processing request: PUT /api/users/johndoe
+2023-06-01 10:11:58 [ERROR] Invalid token provided.
+2023-06-01 10:12:39 [INFO] Request completed successfully: PUT /api/users/johndoe
+2023-06-01 10:13:27 [WARN] Deprecated function called: calculateDiscount()
+2023-06-01 10:14:14 [DEBUG] Processing request: DELETE /api/orders/1234
+2023-06-01 10:15:02 [INFO] Order deleted: Order #1234
+2023-06-01 10:15:47 [INFO] Application shutdown.
+2023-06-01 10:16:32 [DEBUG] Database connection established.
+2023-06-01 10:17:19 [INFO] User registered: janedoe
+2023-06-01 10:18:04 [DEBUG] Processing request: GET /api/users/janedoe
+2023-06-01 10:18:57 [ERROR] User not found: janedoe
+2023-06-01 10:19:46 [INFO] Request completed successfully: GET /api/users/janedoe
+2023-06-01 10:20:33 [WARN] Deprecated function called: getProductPrice()
+2023-06-01 10:21:21 [DEBUG] Processing request: POST /api/products
+2023-06-01 10:22:09 [INFO] New product created: Product #5678
+2023-06-01 10:22:57 [INFO] User logged out: janedoe
+2023-06-01 10:23:46 [DEBUG] Processing request: PUT /api/products/5678
+2023-06-01 10:24:35 [ERROR] Insufficient permissions to update product.
+2023-06-01 10:25:21 [INFO] Request completed successfully: PUT /api/products/5678
+2023-06-01 10:26:07 [WARN] Deprecated function called: calculateTax()
+2023-06-01 10:26:55 [DEBUG] Processing request: DELETE /api/products/5678
+2023-06-01 10:27:44 [INFO] Product deleted: Product #5678
+2023-06-01 10:28:32 [INFO] Application shutdown.
+2023-06-01 10:29:19 [DEBUG] Database connection established.
+2023-06-01 10:30:05 [INFO] User registered: marksmith
+2023-06-01 10:30:51 [DEBUG] Processing request: GET /api/users/marksmith
+2023-06-01 10:31:38 [ERROR] User not found: marksmith
+2023-06-01 10:32:25 [INFO] Request completed successfully: GET /api/users/marksmith
+2023-06-01 10:33:12 [WARN] Deprecated function called: getProductDetails()
+2023-06-01 10:33:59 [DEBUG] Processing request: POST /api/products
+2023-06-01 10:34:46 [INFO] New product created: Product #9012
+2023-06-01 10:35:32 [INFO] User logged out: marksmith
+2023-06-01 10:36:18 [DEBUG] Processing request: PUT /api/products/9012
+2023-06-01 10:37:05 [ERROR] Insufficient permissions to update product.
+2023-06-01 10:37:51 [INFO] Request completed successfully: PUT /api/products/9012
+2023-06-01 10:38:38 [WARN] Deprecated function called: calculateDiscount()
+2023-06-01 10:39:25 [DEBUG] Processing request: DELETE /api/products/9012
+2023-06-01 10:40:11 [INFO] Product deleted: Product #9012
+2023-06-01 10:40:57 [INFO] Application shutdown.
+2023-06-01 10:41:42 [DEBUG] Database connection established.
+2023-06-01 10:42:27 [INFO] User registered: sarahjones
+2023-06-01 10:43:13 [DEBUG] Processing request: GET /api/users/sarahjones
+2023-06-01 10:44:00 [ERROR] User not found: sarahjones
+2023-06-01 10:44:46 [INFO] Request completed successfully: GET /api/users/sarahjones
+2023-06-01 10:45:33 [WARN] Deprecated function called: getProductPrice()
+2023-06-01 10:46:20 [DEBUG] Processing request: POST /api/products
+2023-06-01 10:47:07 [INFO] New product created: Product #3456
+2023-06-01 10:47:53 [INFO] User logged out: sarahjones
+2023-06-01 10:48:39 [DEBUG] Processing request: PUT /api/products/3456
+2023-06-01 10:49:26 [ERROR] Insufficient permissions to update product.
+2023-06-01 10:50:12 [INFO] Request completed successfully: PUT /api/products/3456
+2023-06-01 10:50:59 [WARN] Deprecated function called: calculateTax()
+2023-06-01 10:51:45 [DEBUG] Processing request: DELETE /api/products/3456
+2023-06-01 10:52:32 [INFO] Product deleted: Product #3456
+2023-06-01 10:53:18 [INFO] Application shutdown.
+2023-06-01 10:54:03 [DEBUG] Database connection established.
+2023-06-01 10:54:48 [INFO] User registered: michaelsmith
+2023-06-01 10:55:34 [DEBUG] Processing request: GET /api/users/michaelsmith
+2023-06-01 10:56:21 [ERROR] User not found: michaelsmith
+2023-06-01 10:57:07 [INFO] Request completed successfully: GET /api/users/michaelsmith
+2023-06-01 10:57:54 [WARN] Deprecated function called: getProductDetails()
+2023-06-01 10:58:40 [DEBUG] Processing request: POST /api/products
+2023-06-01 10:59:27 [INFO] New product created: Product #6789
+2023-06-01 11:00:14 [INFO] User logged out: michaelsmith
+2023-06-01 11:01:01 [DEBUG] Processing request: PUT /api/products/6789
+2023-06-01 11:01:47 [ERROR] Insufficient permissions to update product.
+2023-06-01 11:02:34 [INFO] Request completed successfully: PUT /api/products/6789
+2023-06-01 11:03:20 [WARN] Deprecated function called: calculateDiscount()
+2023-06-01 11:04:07 [DEBUG] Processing request: DELETE /api/products/6789
+2023-06-01 11:04:54 [INFO] Product deleted: Product #6789
+2023-06-01 11:05:40 [INFO] Application shutdown.
+2023-06-01 11:06:25 [DEBUG] Database connection established.
+2023-06-01 11:07:10 [INFO] User registered: lisasmith
+2023-06-01 11:07:56 [DEBUG] Processing request: GET /api/users/lisasmith
+2023-06-01 11:08:42 [ERROR] User not found: lisasmith
+2023-06-01 11:09:29 [INFO] Request completed successfully: GET /api/users/lisasmith
+2023-06-01 11:10:15 [WARN] Deprecated function called: getProductPrice()
+2023-06-01 11:11:02 [DEBUG] Processing request: POST /api/products
+2023-06-01 11:11:49 [INFO] New product created: Product #2345
+2023-06-01 11:12:35 [INFO] User logged out: lisasmith
+2023-06-01 11:13:21 [DEBUG] Processing request: PUT /api/products/2345
+2023-06-01 11:14:08 [ERROR] Insufficient permissions to update product.
+2023-06-01 11:14:55 [INFO] Request completed successfully: PUT /api/products/2345
+2023-06-01 11:15:41 [WARN] Deprecated function called: calculateTax()
+2023-06-01 11:16:28 [DEBUG] Processing request: DELETE /api/products/2345
+2023-06-01 11:17:15 [INFO] Product deleted: Product #2345
+2023-06-01 11:18:01 [INFO] Application shutdown.
+2023-06-01 11:18:46 [DEBUG] Database connection established.
+2023-06-01 11:19:31 [INFO] User registered: alexsmith
+2023-06-01 11:20:17 [DEBUG] Processing request: GET /api/users/alexsmith
+2023-06-01 11:21:03 [ERROR] User not found: alexsmith
+2023-06-01 11:21:50 [INFO] Request completed successfully: GET /api/users/alexsmith
+2023-06-01 11:22:36 [WARN] Deprecated function called: getProductDetails()
+2023-06-01 11:23:23 [DEBUG] Processing request: POST /api/products
+2023-06-01 11:24:10 [INFO] New product created: Product #7890
+2023-06-01 11:24:56 [INFO] User logged out: alexsmith
+2023-06-01 11:25:42 [DEBUG] Processing request: PUT /api/products/7890
+2023-06-01 11:26:29 [ERROR] Insufficient permissions to update product.
+2023-06-01 11:27:16 [INFO] Request completed successfully: PUT /api/products/7890
+2023-06-01 11:28:02 [WARN] Deprecated function called: calculateDiscount()
+2023-06-01 11:28:49 [DEBUG] Processing request: DELETE /api/products/7890
+2023-06-01 11:29:36 [INFO] Product deleted: Product #7890
+2023-06-01 11:30:22 [INFO] Application shutdown.
+2023-06-01 11:31:07 [DEBUG] Database connection established.
+2023-06-01 11:31:52 [INFO] User registered: johnsmith
+2023-06-01 11:32:38 [DEBUG] Processing request: GET /api/users/johnsmith
+2023-06-01 11:33:25 [ERROR] User not found: johnsmith
+2023-06-01 11:34:11 [INFO] Request completed successfully: GET /api/users/johnsmith
+2023-06-01 11:34:58 [WARN] Deprecated function called: getProductPrice()
+2023-06-01 11:35:44 [DEBUG] Processing request: POST /api/products
+2023-06-01 11:36:31 [INFO] New product created: Product #1234
+2023-06-01 11:37:17 [INFO] User logged out: johnsmith
+2023-06-01 11:38:03 [DEBUG] Processing request: PUT /api/products/1234
+2023-06-01 11:38:50 [ERROR] Insufficient permissions to update product.
+2023-06-01 11:39:37 [INFO] Request completed successfully: PUT /api/products/1234
+2023-06-01 11:40:23 [WARN] Deprecated function called: calculateTax()
+2023-06-01 11:41:10 [DEBUG] Processing request: DELETE /api/products/1234
+2023-06-01 11:41:57 [INFO] Product deleted: Product #1234
+2023-06-01 11:42:43 [INFO] Application shutdown.
+2023-06-01 11:43:28 [DEBUG] Database connection established.
+2023-06-01 11:44:13 [INFO] User registered: janetsmith
+2023-06-01 11:44:59 [DEBUG] Processing request: GET /api/users/janetsmith
+2023-06-01 11:45:46 [ERROR] User not found: janetsmith
+2023-06-01 11:46:32 [INFO] Request completed successfully: GET /api/users/janetsmith
+2023-06-01 11:47:19 [WARN] Deprecated function called: getProductDetails()
+2023-06-01 11:48:06 [DEBUG] Processing request: POST /api/products
+2023-06-01 11:48:53 [INFO] New product created: Product #5678
+2023-06-01 11:49:39 [INFO] User logged out: janetsmith
+2023-06-01 11:50:25 [DEBUG] Processing request: PUT /api/products/5678
+2023-06-01 11:51:12 [ERROR] Insufficient permissions to update product.
+2023-06-01 11:51:59 [INFO] Request completed successfully: PUT /api/products/5678
+2023-06-01 11-52-45 [WARN] Deprecated function called: calculateDiscount()
+2023-06-01 11-53-32 [DEBUG] Processing request: DELETE /api/products/5678
+2023-06-01 11-54-19 [INFO] Product deleted: Product #5678
+2023-06-01 11-55-05 [INFO] Application shutdown.
+2023-06-01 11-55-50 [DEBUG] Database connection established.
+2023-06-01 11-56-35 [INFO] User registered: sarahsmith
+2023-06-01 11-57-21 [DEBUG] Processing request: GET /api/users/sarahsmith
+2023-06-01 11-58-08 [ERROR] User not found: sarahsmith
+2023-06-01 11-58-54 [INFO] Request completed successfully: GET /api/users/sarahsmith
+2023-06-01 11-59-41 [WARN] Deprecated function called: getProductPrice()
+2023-06-01 12-00-28 [DEBUG] Processing request: POST /api/products
+2023-06-01 12-01-15 [INFO] New product created: Product #9012
+2023-06-01 12-02-01 [INFO] User logged out: sarahsmith
+2023-06-01 12-02-47 [DEBUG] Processing request: PUT /api/products/9012
+2023-06-01 12-03-34 [ERROR] Insufficient permissions to update product.
+2023-06-01 12-04-20 [INFO] Request completed successfully: PUT /api/products/9012
+2023-06-01 12-05-07 [WARN] Deprecated function called: calculateTax()
+2023-06-01 12-05-54 [DEBUG] Processing request: DELETE /api/products/9012
+2023-06-01 12-06-40 [INFO] Product deleted: Product #9012
+2023-06-01 12-07-26 [INFO] Application shutdown.
+2023-06-01 12-08-11 [DEBUG] Database connection established.
+2023-06-01 12-08-56 [INFO] User registered: markjohnson
+2023-06-01 12-09-42 [DEBUG] Processing request: GET /api/users/markjohnson
+2023-06-01 12-10-29 [ERROR] User not found: markjohnson
+2023-06-01 12-11-15 [INFO] Request completed successfully: GET /api/users/markjohnson
+2023-06-01 12-12-02 [WARN] Deprecated function called: getProductDetails()
+2023-06-01 12-12-48 [DEBUG] Processing request: POST /api/products
+2023-06-01 12-13-35 [INFO] New product created: Product #3456
+2023-06-01 12-14-21 [INFO] User logged out: markjohnson
+2023-06-01 12-15-07 [DEBUG] Processing request: PUT /api/products/3456
+2023-06-01 12-15-54 [ERROR] Insufficient permissions to update product.
+2023-06-01 12-16-41 [INFO] Request completed successfully: PUT /api/products/3456
+2023-06-01 12-17-27 [WARN] Deprecated function called: calculateDiscount()
+2023-06-01 12-18-14 [DEBUG] Processing request: DELETE /api/products/3456
+2023-06-01 12-19-00 [INFO] Product deleted: Product #3456
+2023-06-01 12-19-46 [INFO] Application shutdown.
+2023-06-01 12-20-31 [DEBUG] Database connection established.
+2023-06-01 12-21-16 [INFO] User registered: michaelsmith
+2023-06-01 12-22-02 [DEBUG] Processing request: GET /api/users/michaelsmith
+2023-06-01 12-22-49 [ERROR] User not found: michaelsmith
+2023-06-01 12-23-35 [INFO] Request completed successfully: GET /api/users/michaelsmith
+2023-06-01 12-24-22 [WARN] Deprecated function called: getProductPrice()
+2023-06-01 12-25-08 [DEBUG] Processing request: POST /api/products
+2023-06-01 12-25-55 [INFO] New product created: Product #6789
+2023-06-01 12-26-41 [INFO] User logged out: michaelsmith
+2023-06-01 12-27-27 [DEBUG] Processing request: PUT /api/products/6789
+2023-06-01 12-28-14 [ERROR] Insufficient permissions to update product.
+2023-06-01 12-29-00 [INFO] Request completed successfully: PUT /api/products/6789
+2023-06-01 12-29-47 [WARN] Deprecated function called: calculateTax()
+2023-06-01 12-30-33 [DEBUG] Processing request: DELETE /api/products/6789
+2023-06-01 12-31-20 [INFO] Product deleted: Product #6789
+2023-06-01 12-32-06 [INFO] Application shutdown.
+2023-06-01 12-32-51 [DEBUG] Database connection established.
+2023-06-01 12-33-36 [INFO] User registered: lisasmith
+2023-06-01 12-34-22 [DEBUG] Processing request: GET /api/users/lisasmith
+2023-06-01 12-35-09 [ERROR] User not found: lisasmith
+2023-06-01 12-35-55 [INFO] Request completed successfully: GET /api/users/lisasmith
+2023-06-01 12-36-42 [WARN] Deprecated function called: getProductDetails()
+2023-06-01 12-37-28 [DEBUG] Processing request: POST /api/products
+2023-06-01 12-38-15 [INFO] New product created: Product #2345
+2023-06-01 12-39-01 [INFO] User logged out: lisasmith
+2023-06-01 12-39-47 [DEBUG] Processing request: PUT /api/products/2345
+2023-06-01 12-40-34 [ERROR] Insufficient permissions to update product.
+2023-06-01 12-41-20 [INFO] Request completed successfully: PUT /api/products/2345
+2023-06-01 12-42-07 [WARN] Deprecated function called: calculateTax()
+2023-06-01 12-42-53 [DEBUG] Processing request: DELETE /api/products/2345
+2023-06-01 12-43-40 [INFO] Product deleted: Product #2345
+2023-06-01 12-44-26 [INFO] Application shutdown.
+2023-06-01 12-45-11 [DEBUG] Database connection established.
+2023-06-01 12-45-56 [INFO] User registered: alexsmith
+2023-06-01 12-46-42 [DEBUG] Processing request: GET /api/users/alexsmith
+2023-06-01 12-47-29 [ERROR] User not found: alexsmith
+2023-06-01 12-48-15 [INFO] Request completed successfully: GET /api/users/alexsmith
+2023-06-01 12-49-02 [WARN] Deprecated function called: getProductDetails()
+2023-06-01 12-49-48 [DEBUG] Processing request: POST /api/products
+2023-06-01 12-50-35 [INFO] New product created: Product #7890
+2023-06-01 12-51-21 [INFO] User logged out: alexsmith
+2023-06-01 12-52-07 [DEBUG] Processing request: PUT /api/products/7890
+2023-06-01 12-52-54 [ERROR] Insufficient permissions to update product.
+2023-06-01 12-53-41 [INFO] Request completed successfully: PUT /api/products/7890
+2023-06-01 12-54-27 [WARN] Deprecated function called: calculateDiscount()
+2023-06-01 12-55-14 [DEBUG] Processing request: DELETE /api/products/7890
+2023-06-01 12-56-00 [INFO] Product deleted: Product #7890
+2023-06-01 12-56-46 [INFO] Application shutdown.
+2023-06-01 12-57-31 [DEBUG] Database connection established.
+2023-06-01 12-58-16 [INFO] User registered: johnsmith
+2023-06-01 12-59-02 [DEBUG] Processing request: GET /api/users/johnsmith
+2023-06-01 12-59-49 [ERROR] User not found: johnsmith
+2023-06-01 13-00-35 [INFO] Request completed successfully: GET /api/users/johnsmith
+2023-06-01 13-01-22 [WARN] Deprecated function called: getProductPrice()
+2023-06-01 13-02-08 [DEBUG] Processing request: POST /api/products
+2023-06-01 13-02-55 [INFO] New product created: Product #1234
+2023-06-01 13-03-41 [INFO] User logged out: johnsmith
+2023-06-01 13-04-27 [DEBUG] Processing request: PUT /api/products/1234
+2023-06-01 13-05-14 [ERROR] Insufficient permissions to update product.
+2023-06-01 13-06-00 [INFO] Request completed successfully: PUT /api/products/1234
+2023-06-01 13-06-47 [WARN] Deprecated function called: calculateTax()
+2023-06-01 13-07-33 [DEBUG] Processing request: DELETE /api/products/1234
+2023-06-01 13-08-20 [INFO] Product deleted: Product #1234
+2023-06-01 13-09-06 [INFO] Application shutdown.
+2023-06-01 13-09-51 [DEBUG] Database connection established.
+2023-06-01 13-10-36 [INFO] User registered: janetsmith
+2023-06-01 13-11-22 [DEBUG] Processing request: GET /api/users/janetsmith
+2023-06-01 13-12-09 [ERROR] User not found: janetsmith
+2023-06-01 13-12-55 [INFO] Request completed successfully: GET /api/users/janetsmith
+2023-06-01 13-13-42 [WARN] Deprecated function called: getProductDetails()
+2023-06-01 13-14-28 [DEBUG] Processing request: POST /api/products
+2023-06-01 13-15-15 [INFO] New product created: Product #5678
+2023-06-01 13-16-01 [INFO] User logged out: janetsmith
+2023-06-01 13-16-47 [DEBUG] Processing request: PUT /api/products/5678
+2023-06-01 13-17-34 [ERROR] Insufficient permissions to update product.
+2023-06-01 13-18-20 [INFO] Request completed successfully: PUT /api/products/5678
+2023-06-01 13-19-07 [WARN] Deprecated function called: calculateDiscount()
+2023-06-01 13-19-54 [DEBUG] Processing request: DELETE /api/products/5678
+2023-06-01 13-20-40 [INFO] Product deleted: Product #5678
+2023-06-01 13-21-26 [INFO] Application shutdown.
+2023-06-01 13-22-11 [DEBUG] Database connection established.
+2023-06-01 13-22-56 [INFO] User registered: sarahsmith
+2023-06-01 13-23-42 [DEBUG] Processing request: GET /api/users/sarahsmith
+2023-06-01 13-24-29 [ERROR] User not found: sarahsmith
+2023-06-01 13-25-15 [INFO] Request completed successfully: GET /api/users/sarahsmith
+2023-06-01 13-26-02 [WARN] Deprecated function called: getProductPrice
